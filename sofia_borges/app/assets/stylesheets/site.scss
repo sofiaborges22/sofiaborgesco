@@ -11,7 +11,6 @@
 	background-repeat: no-repeat;
 	background-size: 44px;
 	padding-top: 60px;
-
 }
 
 /* unvisited link */
@@ -35,12 +34,39 @@ a:hover {
 	height: 440px;
 	text-align: center;
 	padding-top: 140px;
+	font-size: 80px;
 }
 
-.triple-section {
-	font-size: 15px;
+.bananaleaf {
+	height: 30px;
+	background-image: url(vector-banana-leaf.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.intro {
 	text-align: center;
-	padding:50px;
+	font-size: 45px;
+	padding: 30px;
+	height: 200px;
+	background-image: url(vector-banana-leaf-bw.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.photo-box {
+	height: 340px;
+	background-image: url(photoforhome.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.footer {
+	height: 20px;
+	font-size:12px;
+	text-align: center;
+	padding: 30px;
 }
 
 .portfolio-title {

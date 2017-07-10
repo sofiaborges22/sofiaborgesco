@@ -14,3 +14,12 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(function() {
+	$("#btnOK").click(function() {
+	    $("#myform").hide(400);
+	});
+});
+
+
+

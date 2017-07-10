@@ -1,6 +1,15 @@
 // Place all the styles related to the site controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#btnOK {
+	background-color: #f6dacc;
+	padding: 10px 24px;
+	font-size: 20px;
+	border-radius: 12px;
+	border: none;
+}
+
+
 .left-nav-bar { 
     text-align: right;
     display: inline-block;
@@ -13,17 +22,19 @@
 	padding-top: 60px;
 }
 
-/* unvisited link */
-a:link, a:visited {
+.links-home {
     color: black;
     font-size: 20px;
     padding: 15px;
 }
 
+a:link, a:visited {
+	color: black;
+}
+
 /* mouse over link */
 a:hover {
     color: #f6dacc;
-    font-size: 20px;
 }
 
 .main-box-home {
@@ -31,7 +42,7 @@ a:hover {
 	// background-repeat: no-repeat;
 	// background-size:cover;
 	background-color: #f6dacc;
-	height: 440px;
+	padding-bottom: 140px;
 	text-align: center;
 	padding-top: 140px;
 	font-size: 80px;
@@ -48,8 +59,8 @@ a:hover {
 .intro {
 	text-align: center;
 	font-size: 45px;
-	padding: 30px;
-	height: 200px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	background-image: url(vector-banana-leaf-bw.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -62,11 +73,94 @@ a:hover {
 	background-size: contain;
 }
 
+.quote {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size:35px;
+	text-align: left;
+}
+
+.links-to-work {
+	padding-top: 65px;
+	padding-bottom: 30px;
+	font-size:60px;
+	text-align: right;
+	color: black;
+}
+
+.quote-link-box {
+	height: 240px;
+	background-image: url(white-geo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.skills-row {
+	height: 100px;
+}
+
+.skills {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  padding: 10px 16px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 8.5;
+  border-radius: 25px;
+  background-color: #292727;
+  color: white;
+  border:6px #f6dacc solid;
+}
+
+#uxresearch {
+	background-image: url(uxresearch.svg);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 88px 20px;
+}
+
+#prototype {
+	background-image: url(prototype.svg);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 88px 20px;
+}
+
+#visualdesign {
+	background-image: url(visualdesign.svg);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 88px 20px;
+}
+
+#rails {
+	background-image: url(rails.png);
+	background-repeat: no-repeat;
+	background-size: 100px;
+	background-position: 60px 10px;
+}
+
+#js {
+	background-image: url(js.svg);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 88px 20px;
+}
+
+#css {
+	background-image: url(css.svg);
+	background-repeat: no-repeat;
+	background-size: 80px;
+	background-position: 70px 6px;
+}
+
 .footer {
 	height: 20px;
 	font-size:12px;
 	text-align: center;
 	padding: 30px;
+	background-color: #f6dacc;
 }
 
 .portfolio-title {

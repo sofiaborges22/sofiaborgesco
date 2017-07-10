@@ -1,0 +1,198 @@
+/* line 4, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+#btnOK {
+  background-color: #f6dacc;
+  padding: 10px 24px;
+  font-size: 20px;
+  border-radius: 12px;
+  border: none;
+}
+
+/* line 13, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.left-nav-bar {
+  text-align: right;
+  display: inline-block;
+}
+
+/* line 18, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.logo {
+  background-image: url(SB-LOGO.png);
+  background-repeat: no-repeat;
+  background-size: 44px;
+  padding-top: 60px;
+}
+
+/* line 25, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.links-home {
+  color: black;
+  font-size: 20px;
+  padding: 15px;
+}
+
+/* line 31, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+a:link, a:visited {
+  color: black;
+}
+
+/* mouse over link */
+/* line 36, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+a:hover {
+  color: #f6dacc;
+}
+
+/* line 40, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.main-box-home {
+  background-color: #f6dacc;
+  padding-bottom: 140px;
+  text-align: center;
+  padding-top: 140px;
+  font-size: 80px;
+}
+
+/* line 51, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.intro {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url(PALM.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 61, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.photo-box {
+  height: 340px;
+  background-image: url(photoforhome.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* line 68, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.quote {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 35px;
+  text-align: left;
+}
+
+/* line 75, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.links-to-work {
+  padding-top: 65px;
+  padding-bottom: 30px;
+  font-size: 60px;
+  text-align: right;
+  color: black;
+}
+
+/* line 83, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.quote-link-box {
+  height: 240px;
+  background-image: url(white-geo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 90, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.skills-row {
+  background-image: url(palmbackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 96, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.skills-title {
+  font-size: 60px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* line 102, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.skills {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  margin-left: -10px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 9;
+  border-radius: 25px;
+  background-color: #292727;
+  color: white;
+}
+
+/* line 117, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+#uxresearch {
+  background-image: url(uxresearch.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 95px 30px;
+}
+
+/* line 124, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+#prototype {
+  background-image: url(prototype.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 95px 30px;
+}
+
+/* line 131, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+#visualdesign {
+  background-image: url(visualdesign.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 95px 30px;
+}
+
+/* line 138, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+#rails {
+  background-image: url(rails.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: 70px 15px;
+}
+
+/* line 145, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+#js {
+  background-image: url(js.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 95px 30px;
+}
+
+/* line 152, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+#css {
+  background-image: url(css.svg);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: 75px 6px;
+}
+
+/* line 159, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.social-media {
+  background-color: grey;
+  height: 50px;
+}
+
+/* line 164, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.footer {
+  height: 20px;
+  font-size: 12px;
+  text-align: center;
+  padding: 30px;
+  background-color: #f6dacc;
+}
+
+/* line 172, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.portfolio-title {
+  text-align: center;
+}
+
+/* line 176, /Users/sofiaborges/Documents/Sofia Borges/sofia_borges/app/assets/stylesheets/site.scss */
+.hi-fi-trolley {
+  background-image: url(hifitrolley.png);
+  background-repeat: no-repeat;
+  padding: 200px;
+}

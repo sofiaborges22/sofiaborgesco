@@ -30,6 +30,7 @@
 
 a:link, a:visited {
 	color: black;
+	padding:15px;
 }
 
 /* mouse over link */
@@ -48,20 +49,12 @@ a:hover {
 	font-size: 80px;
 }
 
-.bananaleaf {
-	height: 30px;
-	background-image: url(vector-banana-leaf.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-
-}
-
 .intro {
 	text-align: center;
 	font-size: 45px;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	background-image: url(vector-banana-leaf-bw.png);
+	background-image: url(PALM.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -94,8 +87,17 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 .skills-row {
-	height: 100px;
+	background-image: url(palmbackground.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.skills-title {
+	font-size: 60px;
+	text-align: center;
+	padding: 10px;
 }
 
 .skills {
@@ -103,56 +105,64 @@ a:hover {
   width: 150px;
   height: 150px;
   margin: 20px;
-  padding: 10px 16px;
+  margin-left: -10px;
+  padding: 10px;
   font-size: 18px;
   text-align: center;
-  line-height: 8.5;
+  line-height: 9;
   border-radius: 25px;
   background-color: #292727;
   color: white;
-  border:6px #f6dacc solid;
 }
 
 #uxresearch {
 	background-image: url(uxresearch.svg);
 	background-repeat: no-repeat;
 	background-size: 40px;
-	background-position: 88px 20px;
+	background-position: 95px 30px;
 }
 
 #prototype {
 	background-image: url(prototype.svg);
 	background-repeat: no-repeat;
 	background-size: 40px;
-	background-position: 88px 20px;
+	background-position: 95px 30px;
 }
 
 #visualdesign {
 	background-image: url(visualdesign.svg);
 	background-repeat: no-repeat;
 	background-size: 40px;
-	background-position: 88px 20px;
+	background-position: 95px 30px;
 }
 
 #rails {
 	background-image: url(rails.png);
 	background-repeat: no-repeat;
 	background-size: 100px;
-	background-position: 60px 10px;
+	background-position: 70px 15px;
 }
 
 #js {
 	background-image: url(js.svg);
 	background-repeat: no-repeat;
 	background-size: 40px;
-	background-position: 88px 20px;
+	background-position: 95px 30px;
 }
 
 #css {
 	background-image: url(css.svg);
 	background-repeat: no-repeat;
 	background-size: 80px;
-	background-position: 70px 6px;
+	background-position: 75px 6px;
+}
+
+.social-media {
+	background-color: grey;
+	height:50px;
+	text-align: center;
+	padding:10px;
+	padding-right: 2cm;
 }
 
 .footer {

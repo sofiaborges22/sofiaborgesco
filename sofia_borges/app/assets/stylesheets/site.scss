@@ -177,9 +177,40 @@ a:hover {
 	text-align: center;
 }
 
-.hi-fi-trolley{
-	background-image: url(hifitrolley.png);
-	background-repeat: no-repeat;
-	padding: 200px;
+.about-background {
+	background-color: #f6dacc;
+	background-image: url(PALM55.png);
+	background-size: no-repeat;
+	background-size:cover;
 }
 
+.about-title {
+	font-size: 90px;
+	text-align: center;
+}
+
+.about-me {
+	font-size: 22px;
+	background-color: white;
+	text-align: justify;
+	margin: 25px;
+	padding: 25px;
+}
+
+.about-me-picture {
+	height:300px;
+	background-image: url(about-me.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin: 20px;
+}
+
+.contact-title {
+	font-size: 100px;
+	background-color: #f6dacc;
+	background-image: url(PALM55.png);
+	background-size: no-repeat;
+	background-size:cover;
+	height: 600px;
+}
